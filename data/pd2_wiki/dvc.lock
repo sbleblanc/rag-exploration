@@ -1,0 +1,11 @@
+schema: '2.0'
+stages:
+  dump-wiki:
+    cmd: wikiteam3dumpgenerator https://wiki.projectdiablo2.com/wiki/Main_Page --xml
+      --curonly --delay 0.1 --path wiki.projectdiablo2.com-wikidump
+    outs:
+    - path: wiki.projectdiablo2.com-wikidump/
+      hash: md5
+      md5: b274413064b266630edf6abe2d72806a.dir
+      size: 9537275
+      nfiles: 8
