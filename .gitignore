@@ -162,4 +162,3 @@ cython_debug/
 .idea/
 .direnv/
 dvc_local_remote/
-raw_data/

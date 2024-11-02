@@ -1,0 +1,5 @@
+stages:
+  dump-wiki:
+    cmd: wikiteam3dumpgenerator https://wiki.projectdiablo2.com/wiki/Main_Page --xml --curonly --delay 0.1 --path wiki.projectdiablo2.com-wikidump
+    outs:
+      - wiki.projectdiablo2.com-wikidump/
