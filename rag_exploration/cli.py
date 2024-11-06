@@ -19,8 +19,8 @@ def wiki2text():
             page_text = page.find("./{http://www.mediawiki.org/xml/export-0.11/}revision/{http://www.mediawiki.org/xml/export-0.11/}text").text
             page_id = page.find("{http://www.mediawiki.org/xml/export-0.11/}id").text
             page_title = page.find("{http://www.mediawiki.org/xml/export-0.11/}title").text
-            if page_id != "116":
-                continue
+            # if page_id != "116":
+            #     continue
 
             if page_text is not None:
                 code = mwparserfromhell.parse(page_text)
