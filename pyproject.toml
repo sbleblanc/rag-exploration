@@ -15,7 +15,8 @@ dependencies = [
     "wikiteam3",
     "dvc",
     "mwparserfromhell",
-    "pytest"
+    "pytest",
+    "langchain"
 ]
 
 [build-system]
